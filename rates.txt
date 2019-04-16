@@ -1,0 +1,3 @@
+id,name,subscription fee,call price,sms price,net price,intercity price coefficient
+1,Базовый,0,2,1,1,4
+2,Бизнес,5,1,4,0,1.5

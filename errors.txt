@@ -1,0 +1,2 @@
+Please, check your input in line "89090995429:ieieir:2"with this information: "Tariff ID is not a digit!"
+Please, check your input in line "89090995429:3: ;"with this information: "invalid literal for int() with base 10: ' ;'"
