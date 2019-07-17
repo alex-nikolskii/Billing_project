@@ -9,7 +9,6 @@ class Transaction:
         self.sender = sender
         self.recipient = recipient
 
-    # Доделать форматирование вывода
     def __str__(self):
         return f'{self.service} {self.volume} {self.date} ' \
                f'{self.send_loc} {self.recip_loc} ' \
