@@ -11,7 +11,7 @@ class PersonalInformation:
         else:
             return None
 
-    # Для реализации сортировки
+    # method is used in list.sort()
     def __lt__(self, other):
         return self.conn_date > other.conn_date
 
