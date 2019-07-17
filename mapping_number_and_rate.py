@@ -12,7 +12,6 @@ class MapNumsRatesReader:
     @staticmethod
     def validate_values(record):
         try:
-            # Стоит ли писать тесты на это?
             row = record.strip().split(':')
             number, rate_id, _conn_date = row
             if not number.isdigit():
@@ -50,6 +49,6 @@ class MapNumsRatesReader:
                     if valid_line is not None:
                         inf = p_inf.PersonalInformation(*valid_line, rate)
                         rates_numbers[inf.number].append(inf)
-                    # Сортировка по дате подключения тарифа
+                    # Sorting by date
                 rates_numbers = MapNumsRatesReader.sort(rates_numbers)
             return rates_numbers
